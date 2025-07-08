@@ -22,6 +22,10 @@
             ]
           },
           {
+            "group": "Security & Support", 
+            "pages": ["privacy.mdx"]
+          },
+          {
             "group": "Essentials",
             "pages": [
               "essentials/markdown",
