@@ -23,7 +23,7 @@
           },
           {
             "group": "Security & Support", 
-            "pages": ["privacy.mdx"]
+            "pages": ["privacy"]
           },
           {
             "group": "Essentials",
