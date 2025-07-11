@@ -21,4 +21,20 @@ If you’ve been invited by your administrator but didn’t receive the email, g
   style={{ width:"80%" }}
 />
 
-## Installing the Akomi Plugin in Your EHR
+### Installing the Akomi Plugin in Your EHR
+
+<Info>
+  Akomi's support team will help you download and configure the chrome extension. The chrome extension is required for creating authorization requests from your EHR.
+</Info>
+
+### Submitting authorization requests
+
+You can think of Akomi's EHR plugin like a authorization copilot attached to your EHR. It responds, and adapts based on the current screen displayed in your EHR. For the purposes of this document, we will use eCW as an example, but Akomi works with any EHR (however, the specific pages on which patient details are displayed may vary, contact our support for further questions).
+
+`image of plugin on patient chart`
+
+As soon as you open a patients chart or page, Akomi's plugin on the right side will display the option to create an authorization request. The only thing needed to submit a request is the CPT codes you want to authorize. Akomi will automatically pull the patient demographics, insurance and clinical evidence from your EMR. As you see in the `screenshot above` you can pre-configure common procedures and CPT codes to allow for quickly creating authorization requests. Read `this documentation` to learn how to create CPT code bundles for quick creation.
+
+`image of manual cpt codes`
+
+You can also manually type out the exact list of codes (in a comma separated list) you'd like authorized, if the existing mappings don't cover the encounter.
