@@ -23,7 +23,7 @@
           },
           {
             "group": "Security & Support", 
-            "pages": ["privacy"]
+            "pages": ["privacy", "cookie-notice"]
           },
           {
             "group": "Essentials",
