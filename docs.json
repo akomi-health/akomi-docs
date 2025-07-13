@@ -2,6 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Akomi",
+  "icons": {
+    "library": "lucide"
+  },
   "colors": {
     "primary": "#0056CC",
     "light": "#2971D4",
@@ -9,24 +12,14 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Security & Support",
-            "pages": [
-              "privacy",
-              "cookie-notice"
-            ]
-          }
-        ]
+        "group": "Get Started",
+        "pages": ["index", "configure-cpt-bundles"]
+      },
+      {
+        "group": "Security & Support",
+        "pages": ["privacy", "cookie-notice"]
       }
     ]
   },
@@ -38,7 +31,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:shivam@akomihealth.com"
+        "href": "mailto:support@akomi.com"
       }
     ],
     "primary": {
