@@ -3,3 +3,36 @@ title: 'CPT Code Bundles'
 description: 'Learn how to configure CPT code bundles in the Akomi plugin to streamline your authorization workflow. CPT bundles allow you to group commonly used procedure codes together for quick selection when submitting authorization requests.'
 icon: 'component'
 ---
+
+## Using CPT Code Bundles
+
+CPT code bundles are a feature in the Akomi plugin that allows you to group commonly used procedure codes together for quick selection when submitting authorization requests.
+To create a CPT code bundle:
+
+1. Click the settings in your Akomi account
+2. Navigate to the "Task Creation" tab
+3. Edit the "CPT Mapping" setting
+
+<Frame caption="Enter your CPT codes as a comma separated list">
+  <img src="/images/cpt-mapping.png" alt="CPT Mapping" style={{}} />
+</Frame>
+
+Your created bundle will appear within your EHR plugin in the following way. Note, once you select a bundle, you can still edit the CPT codes for the authorization request manually.
+
+<Frame caption="CPT code bundle in the Akomi plugin">
+  <img
+    src="/images/cpt-bundle-in-plugin.png"
+    alt="CPT Bundle"
+    style={{
+      width: '50%',
+      margin: '0 auto',
+      border: '1px solid #e5e7eb',
+      borderRadius: 'var(--rounded-lg,0.5rem)',
+    }}
+  />
+</Frame>
+
+## Recommendations
+
+1. Create a bundle for each of your most common procedures. This way, you don't need to memorize the CPT codes for each procedure.
+2. If the procedures to be performed are not clearly known before the appointment (common with surgeries), create a bundle with all the possible CPT codes for the appointment type. Akomi will obtain authorization for all the codes in the bundle.
