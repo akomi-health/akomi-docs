@@ -1,15 +1,15 @@
 ---
-title: 'Onboarding'
-description: 'Complete setup guide to get your Akomi account ready in minutes. Provide credentials for your EMR and insurance portals to start automating prior authorizations.'
-icon: 'circle-plus'
+title: "Onboarding"
+description: "Complete setup guide to get your Akomi account ready in minutes. Provide credentials for your EMR and insurance portals to start automating prior authorizations."
+icon: "circle-plus"
 ---
 
 Akomi submits your prior authorizations through the same portals that your staff uses today, just like a human would. Akomi also accesses your EMR in the same way a human would to collect the necessary demographic and clinical information. For this reason, Akomi requires login credentials for each of your portals and your EHR.
 
 <Info>
-  Someone from Akomi's customer success team will collect the necessary
-  credentials from you. **Please use the email and phone number provided by
-  Akomi for all account creation.**
+  Someone from Akomi's customer success team can collect credentials from you, or you can input them into your Akomi account yourself. 
+
+  **Please use the email and phone number provided by Akomi for all account creation.**
 </Info>
 
 # I. Providing Access to Your EMR
@@ -26,9 +26,7 @@ Once you create the credentials, log into your Akomi account and add them under 
   <img
     src="/images/onboarding/ehrconfig.png"
     alt="Adding EHR credentials to Akomi"
-    style={{
-      width: '100%',
-    }}
+    style={{ width:"100%" }}
   />
 </Frame>
 
@@ -45,10 +43,7 @@ Depending on your payer mix and the different procedures you authorize in your p
   <img
     src="/images/onboarding/insurance.png"
     alt="Adding insurance portal credentials to Akomi"
-    style={{
-      width: '100%',
-      overflow: 'hidden',
-    }}
+    style={{ width:"100%",overflow:"hidden" }}
   />
 </Frame>
 
@@ -61,38 +56,43 @@ Depending on your payer mix and the different procedures you authorize in your p
   <Accordion title="United Healthcare">
     Please follow [UHC's user guide](https://chameleon-4-prod.s3.amazonaws.com/clients/39-64ecae4085df9/courses/2598-65c2a2218e44a/prod/index.html#/en-US) to create the credentials.
   </Accordion>
-
-<Accordion title="Availity">
-  <ol style={{ listStyleType: 'decimal' }}>
-    <li>Log into Availity using your administrator account.</li>
+  <Accordion title="Availity">
+    <ol style={{ listStyleType:"decimal" }}>
     <li>
-      On the top bar, select **More**{' '}
-      <Icon icon="move-right" iconType="solid" /> **Account Administration**
-      <Icon icon="move-right" iconType="solid" /> **Add User.**
-    </li>
+    Log into Availity using your administrator account.</li>
+
     <li>
-      When granting access, please provide access to the Authorization &
-      Referral Inquiry and Request modules.
+    On the top bar, select **More**' '
+    <Icon icon="move-right" iconType="solid" /> **Account Administration**
+    <Icon icon="move-right" iconType="solid" /> **Add User.**
+
     </li>
+
     <li>
-      Please use the email and phone number provided by Akomi for all account
-      creation.
+    When granting access, please provide access to the Authorization &
+    Referral Inquiry and Request modules.
+
     </li>
-  </ol>
-</Accordion>
 
-<Accordion title="Carelon">
-  Check out the [Accordion](/components/accordions) docs for all the supported
-  props.
-</Accordion>
+    <li>
+    Please use the email and phone number provided by Akomi for all account
+    creation.
 
-<Accordion title="Cigna for HCP">
-  Please follow [Cigna's user
-  guide](https://static.cigna.com/assets/chcp/resourceLibrary/websiteAccessManager/websiteAccessManagers.html)
-  to create the credentials. You will need to log in to Cigna as the _website
-  access manager_ to create the credentials.
-</Accordion>
+    </li>
 
-<Accordion title="Wellmed">Coming soon.</Accordion>
-
+    </ol>
+  </Accordion>
+  <Accordion title="Carelon">
+    Check out the [Accordion](/components/accordions) docs for all the supported
+    props.
+  </Accordion>
+  <Accordion title="Cigna for HCP">
+    Please follow [Cigna's user
+    guide](https://static.cigna.com/assets/chcp/resourceLibrary/websiteAccessManager/websiteAccessManagers.html)
+    to create the credentials. You will need to log in to Cigna as the _website
+    access manager_ to create the credentials.
+  </Accordion>
+  <Accordion title="Wellmed">
+    Coming soon.
+  </Accordion>
 </AccordionGroup>
