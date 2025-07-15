@@ -1,19 +1,18 @@
 ---
-title: "Introduction"
-description: "Akomi eliminates the administrative burden of prior authorizations for healthcare providers.  What typically takes 10-20 minutes per patient can now be completed in under 5 seconds. Akomi uses AI to extract clinical evidence from your EHR, validate it against payer guidelines, respond to authorization questions, and submit requests via portals or phone—entirely autonomously. The entire process is seamlessly initiated from within your existing EHR workflow."
-icon: "book-open"
+title: 'Introduction'
+description: 'Akomi automates prior authorizations for healthcare providers, reducing processing time from 15 minutes to seconds by using AI to extract clinical evidence and submit requests directly from your EHR workflow.'
+icon: 'book-open'
 ---
 
 ## Getting Started
 
-Currently, Akomi is available by invitation only. To request access, email [contact
-@akomi.com](mailto:contact@akomi.com). If your organization already uses Akomi, reach out to your system administrator for an invite.
+Akomi is currently available by invitation only. To request access, email [contact@akomi.com](mailto:contact@akomi.com). If your organization already uses Akomi, please reach out to your system administrator for an invitation.
 
 ### Creating an Account
 
-You will receive an invitation email from `notifications@akomi.com`. Click the link in the email to accept the invitation and create your account.
+You will receive an invitation email from `notifications@akomi.com`. Click the link in the email to accept your invitation and create your account.
 
-If you've been invited by your administrator but didn't receive the email, go to https://app.akomi.com/auth and sign up using the same email address to which the invitation was sent.
+If you have been invited by your administrator but did not receive the email, visit [https://app.akomi.com/auth](https://app.akomi.com/auth) and sign up using the same email address to which the invitation was sent.
 
 <Frame>
   <img
@@ -21,7 +20,11 @@ If you've been invited by your administrator but didn't receive the email, go to
     alt="Sign-up page"
     title="Akomi Sign-up Page"
     className="mx-auto"
-    style={{ width:"70%",border:"1px solid #e5e7eb",borderRadius:"var(--rounded-lg,0.5rem)" }}
+    style={{
+      width: '70%',
+      border: '1px solid #e5e7eb',
+      borderRadius: 'var(--rounded-lg,0.5rem)',
+    }}
     caption="Akomi Invite Email"
   />
 </Frame>
@@ -29,43 +32,55 @@ If you've been invited by your administrator but didn't receive the email, go to
 ### Installing the Akomi Plugin in Your EHR
 
 <Info>
-  Akomi's support team will help you download and configure the chrome
-  extension. The chrome extension is required for creating authorization
-  requests from your EHR.
+  The Akomi support team will assist you in downloading and configuring the
+  Chrome extension. This extension is required to create authorization requests
+  directly from your EHR.
 </Info>
 
-### Submitting authorization requests
+### Submitting Authorization Requests
 
-You can think of Akomi's EHR plugin like a authorization copilot attached to your EHR. It responds, and adapts based on the current screen displayed in your EHR. For the purposes of this document, we will use eCW as an example, but Akomi works with any EHR (however, the specific pages on which patient details are displayed may vary, contact our support for further questions).
+Think of Akomi's EHR plugin as an authorization copilot integrated with your EHR. It responds and adapts based on the current screen displayed in your EHR. For this guide, we use eCW as an example, but Akomi works with any EHR. (The specific pages where patient details appear may vary—contact our support team if you have questions.)
 
 <a id="akomi-plugin-screenshot" />
 
-<Frame caption="Akomi's side panel, overlayed on eCW patient chart">
+<Frame caption="Akomi's side panel, overlaid on an eCW patient chart">
   <img
     src="/images/plugin-patient-chart.png"
     alt="Akomi plugin interface on patient chart"
     title="Akomi Plugin on Patient Chart"
     className="mx-auto"
-    style={{ width:"80%",border:"1px solid #e5e7eb",borderRadius:"var(--rounded-lg,0.5rem)" }}
+    style={{
+      width: '80%',
+      border: '1px solid #e5e7eb',
+      borderRadius: 'var(--rounded-lg,0.5rem)',
+    }}
   />
 </Frame>
 
-As soon as you open a patients chart or page, Akomi's plugin on the right side will display the option to create an authorization request. The only thing needed to submit a request is the CPT codes you want to authorize. Akomi will automatically pull the patient demographics, insurance and clinical evidence from your EMR. As you see in the [screenshot above](#akomi-plugin-screenshot)
-you can pre-configure common procedures and CPT codes to allow for quickly creating authorization requests.
+When you open a patient's chart, the Akomi plugin appears on the right side, offering the option to create an authorization request. All you need to submit a request are the CPT codes you wish to authorize. Akomi automatically pulls patient demographics, insurance details, and clinical evidence from your EMR. As shown in the [screenshot above](#akomi-plugin-screenshot), you can pre-configure common procedures and CPT codes for quick selection.
 
-<Card title="Configure CPT Code Bundles" icon="component" href="/configure-cpt-bundles" cta="Learn more">
-  CPT bundles allow you to group commonly used procedure codes together for
-  quick selection.
+<Card
+  title="Configure CPT Code Bundles"
+  icon="component"
+  href="/configure-cpt-bundles"
+  cta="Learn more"
+>
+  CPT bundles let you group commonly used procedure codes together for fast,
+  easy selection.
 </Card>
 
-You can also manually type out the exact list of codes (in a comma separated list) you'd like authorized, if the existing mappings don't cover the encounter.
+You can also manually enter any set of codes (as a comma-separated list) you'd like authorized, if the existing mappings don't cover the encounter.
 
-<Frame caption="Manually enter any set of codes in a comma separated list">
+<Frame caption="Manually enter any set of codes in a comma-separated list">
   <img
     src="/images/manual-cpt-entry.gif"
     alt="Manual CPT codes"
     title="Manual CPT codes"
     className="mx-auto"
-    style={{ width:"50%",border:"1px solid #e5e7eb",borderRadius:"var(--rounded-lg,0.5rem)" }}
+    style={{
+      width: '50%',
+      border: '1px solid #e5e7eb',
+      borderRadius: 'var(--rounded-lg,0.5rem)',
+    }}
   />
 </Frame>

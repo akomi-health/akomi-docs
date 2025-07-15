@@ -15,7 +15,22 @@
     "groups": [
       {
         "group": "Get Started",
-        "pages": ["index", "configure-cpt-bundles"]
+        "pages": ["index", "onboarding", "configure-cpt-bundles"]
+      },
+      {
+        "group": "EHR Integration",
+        "pages": [
+          {
+            "group": "EHR Integrations",
+            "icon": "monitor-dot",
+            "pages": [
+              "ehr-integrations/ecw",
+              "ehr-integrations/modmed",
+              "ehr-integrations/practice-fusion",
+              "ehr-integrations/weinfuse"
+            ]
+          }
+        ]
       },
       {
         "group": "Security & Support",
