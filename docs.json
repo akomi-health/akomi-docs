@@ -37,8 +37,8 @@
         "tab": "Updates",
         "groups": [
           {
-            "group": "Changelog",
-            "pages": ["changelog"]
+            "group": "Product Updates",
+            "pages": ["updates"]
           }
         ]
       }
