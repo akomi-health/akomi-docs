@@ -2,9 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Akomi",
-  "icons": {
-    "library": "lucide"
-  },
+  "icons": { "library": "lucide" },
   "colors": {
     "primary": "#0056CC",
     "light": "#2971D4",
@@ -12,29 +10,37 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "groups": [
+    "tabs": [
       {
-        "group": "Get Started",
-        "pages": ["index", "onboarding", "configure-cpt-bundles"]
-      },
-      {
-        "group": "EHR Integration",
-        "pages": [
+        "tab": "Documentation",
+        "groups": [
           {
-            "group": "EHR Integrations",
-            "icon": "monitor-dot",
+            "group": "Get Started",
+            "pages": ["index", "onboarding", "configure-cpt-bundles"]
+          },
+          {
+            "group": "EHR Integration",
             "pages": [
               "ehr-integrations/ecw",
               "ehr-integrations/modmed",
               "ehr-integrations/practice-fusion",
               "ehr-integrations/weinfuse"
             ]
+          },
+          {
+            "group": "Security & Support",
+            "pages": ["privacy", "cookie-notice"]
           }
         ]
       },
       {
-        "group": "Security & Support",
-        "pages": ["privacy", "cookie-notice"]
+        "tab": "Updates",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": ["changelog"]
+          }
+        ]
       }
     ]
   },
@@ -44,10 +50,7 @@
   },
   "navbar": {
     "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@akomi.com"
-      }
+      { "label": "Support", "href": "mailto:support@akomi.com" }
     ],
     "primary": {
       "type": "button",
