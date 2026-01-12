@@ -16,7 +16,12 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": ["index", "onboarding", "configure-cpt-bundles", "clinical-audit"]
+            "pages": [
+              "index",
+              "onboarding",
+              "configure-cpt-bundles",
+              "clinical-audit/clinical-audit"
+            ]
           },
           {
             "group": "EHR Integration",
@@ -49,9 +54,7 @@
     "dark": "/logo/dark-logo.svg"
   },
   "navbar": {
-    "links": [
-      { "label": "Support", "href": "mailto:support@akomi.com" }
-    ],
+    "links": [{ "label": "Support", "href": "mailto:support@akomi.com" }],
     "primary": {
       "type": "button",
       "label": "Dashboard",
