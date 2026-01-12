@@ -16,7 +16,7 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": ["index", "onboarding", "configure-cpt-bundles"]
+            "pages": ["index", "onboarding", "configure-cpt-bundles", "clinical-audit"]
           },
           {
             "group": "EHR Integration",
