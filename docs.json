@@ -20,7 +20,8 @@
               "index",
               "onboarding",
               "configure-cpt-bundles",
-              "clinical-audit/clinical-audit"
+              "clinical-audit/clinical-audit",
+              "supported-payers"
             ]
           },
           {
