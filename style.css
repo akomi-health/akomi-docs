@@ -1,0 +1,6 @@
+.mt-card img,
+.card img,
+[class*="card"] img[src*="/images/payers/"] {
+  padding: 10%;
+  box-sizing: border-box;
+}
