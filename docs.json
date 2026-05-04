@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Akomi",
   "icons": { "library": "lucide" },
   "colors": {
@@ -44,7 +44,12 @@
         "groups": [
           {
             "group": "Product Updates",
-            "pages": ["updates"]
+            "pages": [
+              "updates/v2026-05-03",
+              "updates/v2025-11-21",
+              "updates/v2025-11-18",
+              "updates/v2025-10-23"
+            ]
           }
         ]
       }

@@ -1,0 +1,99 @@
+---
+title: "v2026.05.03"
+description: "Tasks redesign — Board view, category grouping, and turnaround time"
+---
+
+<Note>This update will be live for everyone on Wednesday, May 6th, 2026.</Note>
+
+The Tasks page has been completely redesigned to give you more clarity and control over your prior authorization workflow.
+
+## List and Board views
+
+Switch between a list view and a board view using the toggle in the top-right corner of the Tasks page. The board view organizes tasks into columns by category, while the list view presents them in a compact table with collapsible category sections.
+
+<Tip>
+  The board view is the default because it gives you a quick snapshot of all
+  your tasks without excessive scrolling.
+</Tip>
+
+<Frame caption="Board view — Ongoing tasks organized into columns by category (Audit Inquiry, Payer Information Request, Denied)">
+  <img
+    src="/images/tasks-board-view.png"
+    alt="Tasks board view with Audit Inquiry, Payer Information Request, and Denied columns"
+  />
+</Frame>
+
+<br />
+
+You can switch to a list view if you are more comfortable with a tabular view. Your preference will be saved.
+
+<Frame caption="List view — tasks grouped under collapsible category headers with a toggle to switch between views">
+  <img
+    src="/images/task-list-view.png"
+    alt="Tasks list view with collapsible category groups and view toggle"
+  />
+</Frame>
+
+## Category grouping
+
+Tasks within each view — Not Supported, Ongoing, Action Required, and Complete — are now organized into categories so you can quickly find what needs your attention.
+
+### Ongoing categories
+
+<ul>
+  <li>
+    <strong>In Progress</strong> — Akomi agents are currently working on the
+    task. This can take anywhere from a few minutes to an hour.
+  </li>
+  <li>
+    <strong>Pended by Payer</strong> — The payer has pended the request. We
+    check the portal and fax periodically throughout the day and update the
+    status.
+  </li>
+  <li>
+    <strong>Appeal in Progress</strong> — An appeal has been submitted. We check
+    the portal and fax periodically throughout the day and update the status.
+  </li>
+  <li>
+    <strong>Under Akomi Review</strong> — Tasks that require additional
+    attention from Akomi's team for quality assurance or exception handling.
+    Turnaround time is 1 day.
+  </li>
+</ul>
+
+### Action Required categories
+
+<ul>
+  <li>
+    <strong>Audit Inquiry</strong> — Akomi's clinical audit flagged an issue
+    such as a missing ICD code, an information request, or an LMN that needs
+    approval.
+  </li>
+  <li>
+    <strong>Blocked Needs Attention</strong> — Something is preventing Akomi
+    from proceeding. Each card includes a chip explaining what needs unblocking
+    (e.g. "Benefits issue", "Patient not found").
+  </li>
+  <li>
+    <strong>Denied</strong> — The prior authorization was denied by the payer.
+  </li>
+  <li>
+    <strong>Payer Information Request</strong> — The payer issued an RFI or a
+    peer-to-peer (P2P) review request.
+  </li>
+</ul>
+
+<Columns cols={2}>
+  <Frame>
+    <img
+      src="/images/tasks-blocked-chip.png"
+      alt="Blocked task card showing a Benefits issue chip"
+    />
+  </Frame>
+  <Frame>
+    <img
+      src="/images/tasks-turnaround-time.png"
+      alt="Ongoing task card showing 1 day turnaround time"
+    />
+  </Frame>
+</Columns>
